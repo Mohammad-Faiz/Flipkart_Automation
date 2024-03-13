@@ -20,3 +20,4 @@ features = driver.find_element(By.XPATH,"/html/body/div/div/div[3]/div[1]/div[2]
 print(features)
 
 assert "(Mirror Blue, 128 GB)  (8 GB RAM)" in features
+
