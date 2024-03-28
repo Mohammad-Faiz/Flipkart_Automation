@@ -103,6 +103,8 @@ elif confirmation.lower() == "no":
     time.sleep(3)
 
     #click on popup bar
-    driver.find_element(By.XPATH, "/html/body/div[3]/div/span").click()
+    popup = driver.find_element(By.XPATH, "/html/body/div[3]/div/span")
+    if popup.is_displayed():
+        popup.click()
     selection()
 
