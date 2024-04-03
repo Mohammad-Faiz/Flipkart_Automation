@@ -21,7 +21,7 @@ else:
     # driver.close()
 
 #handle windows
-#windows_opened = driver.window_handles
+#windows_opened = driver.window_handles 
 
 def selection():
     global confirmation
