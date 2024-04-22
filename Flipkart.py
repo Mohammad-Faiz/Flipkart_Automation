@@ -97,7 +97,7 @@ if confirmation.lower() == "yes":
 
 
 elif confirmation.lower() == "no":
-    print("Choose your product again😥")
+    print("Choose your product again😥") 
 
     driver.get("https://www.flipkart.com")
     time.sleep(3)
